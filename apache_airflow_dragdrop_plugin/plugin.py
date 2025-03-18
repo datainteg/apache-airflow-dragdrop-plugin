@@ -6,7 +6,7 @@ import os
 # Get Plugin Directory
 PLUGIN_DIR = os.path.dirname(__file__)
 
-# Define Blueprint
+# Define Flask Blueprint
 react_bp = Blueprint(
     "apache_airflow_dragdrop_plugin",
     __name__,
@@ -23,14 +23,14 @@ def serve_assets(filename):
 def serve_static(filename):
     return send_from_directory(os.path.join(PLUGIN_DIR, "static"), filename)
 
-# Serve React Index Page
+
 @react_bp.route("/drag-drop")
 def serve_react():
     return render_template("index.html")
 
-# Flask AppBuilder View for Airflow UI
+
 class ReactView(BaseView):
-    default_view = "drag-drop"
+    default_view = "react"
 
     @expose("/")
     def react(self):
@@ -39,11 +39,12 @@ class ReactView(BaseView):
 # Register Plugin
 class MyReactPlugin(AirflowPlugin):
     name = "apache_airflow_dragdrop_plugin"
-    flask_blueprints = [react_bp]  # Enable /drag-drop in Flask
+    flask_blueprints = [react_bp]
     appbuilder_views = [
         {
-            "name": "React UI",
+            "name": "Drag and Drop",
             "category": "Custom Plugins",
-            "view": ReactView()
+            "view": ReactView(),
+            "href": "/drag-drop/",
         }
     ]
