@@ -1,0 +1,4 @@
+include my_airflow_plugin/static/*
+include my_airflow_plugin/templates/*
+include README.md
+include LICENSE
