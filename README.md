@@ -1,6 +1,6 @@
 # Apache Airflow Drag-and-Drop Plugin 🚀
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 &#x20;&#x20;
 
