@@ -1,0 +1,3 @@
+recursive-include apache_airflow_dragdrop_plugin/static *
+recursive-include apache_airflow_dragdrop_plugin/templates *
+include README.md LICENSE
