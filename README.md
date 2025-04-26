@@ -2,21 +2,28 @@
 
 ![alt text](image-1.png)
 
+
 &#x20;&#x20;
 
-The **Apache Airflow Drag-and-Drop Plugin** enhances the Apache Airflow UI by allowing users to create and manage workflows using a **drag-and-drop interface**. This plugin simplifies the process of creating DAGs (Directed Acyclic Graphs) by providing an intuitive visual interface. 🎉
+The **Apache Airflow Drag-and-Drop Plugin** enhances the Apache Airflow UI by allowing users to create and manage workflows using a **drag-and-drop interface**. 
 
-## Features ✨
+This plugin simplifies the process of creating DAGs (Directed Acyclic Graphs) by providing an intuitive visual interface. 🎉
+
+### Features ✨
 
 ✅ **Drag-and-Drop Interface** – Easily create and modify DAGs visually. 
-✅ **Predefined Templates** – Use templates for common workflows. 
-✅ **Custom Operators** – Extend the palette with custom operators. 
+
+✅ **Predefined Templates** – Use templates for common workflows.
+
+✅ **Custom Operators** – Extend the palette with custom operators.
+
 ✅ **Real-Time Validation** – Validate workflows before deployment. 
+
 ✅ **Export DAG Code** – Save workflows as .py file.
 
 ---
 
-## Installation 🛠️
+### Installation 🛠️
 
 ### 🔹 For Non-Dockerized Airflow Setup
 
@@ -77,7 +84,7 @@ Open the Airflow UI and navigate to the **"Drag-and-Drop"** tab.
 ## Usage 🖥️
 
 ### 🚀 Creating a New Workflow
-```
+
 1️⃣ Open the Drag-and-Drop Interface : Navigate to the "Drag-and-Drop" tab in the Airflow UI. 
 
 2️⃣ Add Nodes : Drag operators onto the canvas and connect them. 
@@ -85,41 +92,42 @@ Open the Airflow UI and navigate to the **"Drag-and-Drop"** tab.
 3️⃣ Configure Nodes : Click on each node to set its properties. 
 
 4️⃣ Validate and Save : Ensure your workflow is error-free and save it as a DAG.
-```
 
-### 🔄 Exporting and Importing Workflows
 
-- **Export**: Click "Export" to save your DAG as a Python file.
----
 
-## Contributing 🤝
+
+### Contributing 
 
 We welcome contributions! Follow these steps: 
-1️⃣ **Fork the repository** 
+
+1️⃣ **Fork the repository**
+
 2️⃣ **Create a new branch** for your feature or bugfix. 
+
 3️⃣ **Submit a pull request** with a detailed description.
 
 ---
 
-## License 📜
+### License 
 
 This project is licensed under the **Apache License 2.0**. See the `LICENSE` file for details.
 
-## Support 🆘
+### Support
 
 If you encounter any issues or have questions, please **open an issue** on our GitHub repository.
 
-## Acknowledgments 🙏
+
+### Acknowledgments 
 
 Special thanks to the **Apache Airflow community** for their support and inspiration.
 
 ---
 
-🌎 Connect with Us
+
+### Connect with Us
 
 akshay.thakare031@gmail.com 
+
 https://www.linkedin.com/in/akshaythakare3
 
----
-
-🚀 **Happy Workflow Building!** 🚀
+```
