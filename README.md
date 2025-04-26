@@ -1,5 +1,7 @@
 # Apache Airflow Drag-and-Drop Plugin 🚀
 
+![alt text](image.png)
+
 &#x20;&#x20;
 
 The **Apache Airflow Drag-and-Drop Plugin** enhances the Apache Airflow UI by allowing users to create and manage workflows using a **drag-and-drop interface**. This plugin simplifies the process of creating DAGs (Directed Acyclic Graphs) by providing an intuitive visual interface. 🎉

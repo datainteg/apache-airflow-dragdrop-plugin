@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="apache-airflow-dragdrop-plugin",
-    version="1.1.3",
+    version="1.1.4",
     description="A custom Apache Airflow plugin to integrate a React UI",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
