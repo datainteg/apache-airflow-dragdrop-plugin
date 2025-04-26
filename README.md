@@ -1,17 +1,18 @@
-# Apache Airflow Drag-and-Drop Plugin 🚀
+# Apache Airflow Drag-and-Drop Plugin
 
 &#x20;&#x20;
 
-The **Apache Airflow Drag-and-Drop Plugin** enhances the Apache Airflow UI by allowing users to create and manage workflows using a **drag-and-drop interface**. This plugin simplifies the process of creating DAGs (Directed Acyclic Graphs) by providing an intuitive visual interface. 🎉
+The **Apache Airflow Drag-and-Drop Plugin** enhances the Apache Airflow UI by allowing users to create and manage workflows using a **drag-and-drop interface**. This plugin simplifies the process of creating DAGs (Directed Acyclic Graphs) by providing an intuitive visual interface.
 
-## Features ✨
+## Features
+```bash
+Drag-and-Drop Interface – Easily create and modify DAGs visually. 
+Predefined Templates – Use templates for common workflows. 
+Custom Operators – Extend the palette with custom operators. 
+Real-Time Validation – Validate workflows before deployment. 
+Export DAG Code – Save workflows as .py file.
 
-✅ **Drag-and-Drop Interface** – Easily create and modify DAGs visually. 
-✅ **Predefined Templates** – Use templates for common workflows. 
-✅ **Custom Operators** – Extend the palette with custom operators. 
-✅ **Real-Time Validation** – Validate workflows before deployment. 
-✅ **Export DAG Code** – Save workflows as .py file.
-
+```
 ---
 
 ## Installation 🛠️
